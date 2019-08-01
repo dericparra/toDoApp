@@ -1,0 +1,17 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.input{
+    width: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
