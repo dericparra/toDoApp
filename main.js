@@ -16,6 +16,7 @@ function createList(){
     elementButton.append(textButton)
     element.append(elementButton)
     removeElement(elementButton)
+    getInput.value=''
 }
 
 button.addEventListener('click', createList)
