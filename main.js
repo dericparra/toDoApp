@@ -1,10 +1,12 @@
+var form = document.querySelector('[data-form]')
 var getInput = document.querySelector('[data-input]')
 var button = document.querySelector('[data-button]')
 var result = document.querySelector('[data-res]')
 var list = document.querySelector('[data-lis]')
 var toDo = [];
 
-function createList(){
+form.addEventListener('submit', function(e){
+    e.preventDefault()
     let itemInput = getInput.value
     let element = document.createElement('li')
     let text = document.createTextNode(itemInput)
@@ -17,9 +19,8 @@ function createList(){
     element.append(elementButton)
     removeElement(elementButton)
     getInput.value=''
-}
-
-button.addEventListener('click', createList)
+    console.log(e)
+})
 
 function removeElement(element){
     element.addEventListener('click', function(){

@@ -5,13 +5,39 @@ body {
 
 }
 
+header {
+    background: black;
+}
+
 h1 {
     font-size: 60px;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
 }
 
 .input{
-    width: 10%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    max-width: 400px;
+    width: 15%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    max-width: 450px;
+}
+
+li {
+    margin: 10px;
+}
+
+button {
+    margin: 10px;
+}
+
+footer {  
+    background: black;
+    color: white;
+    position:absolute;
+    bottom:0;
+    width:100%;
 }
